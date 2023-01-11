@@ -777,9 +777,9 @@ p {
   transform: translate(-50%, -50%);
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  background-color: #02986A;
   font-size: 18px;
-  color: #02986A;
+  color: #fff;
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
@@ -788,8 +788,8 @@ p {
 }
 
 .about_video .play:hover {
-  background-color: #02986A;
-  color: #fff;
+  background-color: #fff;
+  color: #02986A;
 }
 
 .about_content {
