@@ -8,8 +8,107 @@
 
 
     <!--====== ABOUT PART START ======-->
+    <section id="courses" class="project_area pt-115">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title pb-60">
+                        <h4 class="title"></h4>
+                        <h2 class="main_title">Available Courses</h2>              
+                            
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_project">
+                        <div class="project_image">
+                            <img src="assets/images/basic.jpg" alt="project">
+                        </div>
+                        <div class="shadow p-4">
+                        	<h5 class="title"><a href="https://www.smesabi.com/lms/course/view.php?id=57" class="text-success">Basic Financial Literacy</a></h5>
+                            <p class="">Register now and learn how to manage your money better. You can take an optional module to improve your chances of getting a loan. </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/icon/money-bag.png"/>
+                                    <span style="color:#014741;">&nbsp; Free</span>
+                                </div>
+                                <div class="col-6" style="text-align:right;">
+                                    <em>24 hours</em>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div> <!-- single project -->
+                </div>
 
-    <section id="about" class="about_area pt-80 pb-130">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_project">
+                        <div class="project_image">
+                            <img src="assets/images/advanced.jpg" alt="project">
+                        </div>
+                        <div class="shadow p-4">
+                            
+                            <h5 class="title"><a href="https://www.smesabi.com/lms/course/view.php?id=56" class="text-success">Advanced Financial Literacy</a></h5>
+                            <p class="">Take this course and bring your financial knowledge to the next level.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/icon/money-bag.png"/>
+                                    <span style="color:#014741;">&nbsp; Free</span>
+                                </div>
+                                <div class="col-6" style="text-align:right;">
+                                    <em>48 hours</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- single project -->
+                </div>
+                
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="single_project">
+                        <div class="project_image">
+                            <img src="assets/images/trainer.jpg" alt="project">
+                        </div>
+                        <div class="shadow p-4">
+                            <h4 class="title"><a href="https://www.smesabi.com/lms/course/view.php?id=58" class="text-success">Financial Literacy Trainer</a></h4>
+                            <p class="">You are interested in sharing your financial knowledge? Click here!</p>
+                        </div>
+                    </div> 
+                </div> -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_project">
+                        <div class="project_image">
+                            <img src="assets/images/ef.jpg" alt="project">
+                        </div>
+                        <div class="shadow p-4">
+                            
+                            <h5 class="title"><a href="https://www.smesabi.com/lms/course/view.php?id=55" class="text-success">Entreprenuership Fundamentals</a></h5>
+                            <p class="">Do you want to become a successful entrepreneur? Join this course!</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="assets/icon/money-bag.png"/>
+                                    <span style="color:#014741;">&nbsp; Free</span>
+                                </div>
+                                <div class="col-6" style="text-align:right;" >
+                                    <em>120 hours</em>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div> <!-- single project -->
+                </div>
+                
+            </div> <!-- row -->
+        </div> <!-- container fluid -->
+        <div class="container">
+            <div class="project_btn text-center pt-30">
+                <!-- <a href="javascript:void(0)" class="main-btn">View All</a> -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    <section id="about" class="about_area pt-5 pb-20">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">

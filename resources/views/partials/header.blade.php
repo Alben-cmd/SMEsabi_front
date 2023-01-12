@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg bg-white navbar-dark fixed-top shadow">
+<nav class="navbar navbar-expand-lg bg-white navbar-dark fixed-top shadow" style="padding:18px;">
     <!-- Brand -->
     <a class="navbar-brand" href="#">
         <img src="assets/images/logo.svg" alt="logo">
@@ -12,42 +12,46 @@
 
     <!-- Navbar links -->
     <div class="collapse navbar-collapse ml-auto" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" style="font-size: 18px;">
             
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link text-success page-scroll pl-3" href="/#home">Home</a>
-            </li>
+            </li> -->
             
-            <li class="nav-item">
+            <li class="nav-item" style="padding:4px;">
                 <a class="nav-link text-success page-scroll pl-3" href="/#about">About Us</a></li>
             </li>
             
-            <li class="nav-item">
-                <a class="nav-link text-success page-scroll pl-3" href="/availiable-courses">Available Courses</a></li>
+            <li class="nav-item" style="padding:4px;">
+                <a class="nav-link text-success page-scroll pl-3" href="href="#courses">Courses</a></li>
             </li>
 
-            <li class="nav-item">
+            <!-- <li class="nav-item" style="padding:4px;">
+                <a class="nav-link text-success page-scroll pl-3" href="/availiable-courses">Courses</a></li>
+            </li> -->
+
+            <!-- <li class="nav-item">
                 <a class="nav-link text-success page-scroll pl-3" href="/resources">Resources</a></li>
-            </li>
+            </li> -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link text-success page-scroll pl-3" href="/faqs">FAQs</a></li>
+            </li> -->
+
+            <!-- <li class="nav-item">
+                <a class="nav-link text-success page-scroll pl-3" href="https://drive.google.com/file/d/1yyAtD8KsFddmyzwotnnEF2qAdG2dZdBr/view" target="_blank">Testimonials</a></li> -->
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link text-success page-scroll pl-3" href="https://drive.google.com/file/d/1yyAtD8KsFddmyzwotnnEF2qAdG2dZdBr/view" target="_blank">Testimonials</a></li>
-            </li>
-
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link text-success page-scroll pl-3" href="#footer">Help</a></li>
+            </li> -->
+
+            <li class="nav-item" style="padding:6px;">
+                <a class="btn btn-outline-success" href="https://www.smesabi.com/lms/login/index.php">Login</a></li>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link text-success page-scroll pl-3" href="https://www.smesabi.com/lms/login/index.php">Login</a></li>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link text-success page-scroll pl-3" href="https://www.smesabi.com/lms/login/signup.php">Register</a></li>
+            <li class="nav-item" style="padding:6px;">
+                <a class="btn btn-success" href="https://www.smesabi.com/lms/login/signup.php" >Get Started</a></li>
             </li>
         </ul>
     </div>
@@ -63,7 +67,7 @@
                     <div class="header_content">
                         <h2 class="title" data-animation="fadeInUp" data-delay="0.2s">I sabi am! <br> How about you ?</h2>
                         <p data-animation="fadeInUp" data-delay="0.5s">Are you looking to manage your money better, but you don’t know how? Do you have a business idea and you’re wondering where to start from or are you looking to grow your business? Do you want all these for <span style="color: #67cbac;"> FREE?</span></p>
-                        <a href="https://www.smesabi.com/lms/login/signup.php" class="main-btn" data-animation="fadeInUp" data-delay="0.8s" target="_blank">Register Now</a>
+                        <a href="https://www.smesabi.com/lms/login/signup.php" class="main-btn" data-animation="fadeInUp" data-delay="0.8s" target="_blank">Get Started</a>
                     </div> <!-- header content -->
                 </div>
             </div> <!-- row -->

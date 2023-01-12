@@ -20,10 +20,15 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Raleway:300,400,500,600,700,800&display=swap");
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-family: 'Neue Haas Grotesk Display Pro';
+  font-weight: 900;
   font-style: normal;
   color: #747E88;
+
+  /* font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal; */
+  
 }
 
 * {
@@ -152,6 +157,7 @@ p {
     padding: 0 25px;
     line-height: 45px;
     font-size: 14px;
+    text-align: center;
   }
 }
 
@@ -584,17 +590,20 @@ p {
   font-size: 54px;
   font-weight: 800;
   color: #fff;
+ 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single_slider .header_content .title {
     font-size: 48px;
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single_slider .header_content .title {
     font-size: 48px;
+    text-align: center;
   }
 }
 
