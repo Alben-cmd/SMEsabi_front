@@ -1,7 +1,7 @@
 
 <nav class="navbar navbar-expand-lg bg-white navbar-dark fixed-top shadow" style="padding:18px;">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{ route('welcome') }} ">
         <img src="assets/images/logo.svg" alt="logo">
     </a>
 
@@ -23,7 +23,7 @@
             </li>
             
             <li class="nav-item" style="padding:4px;">
-                <a class="nav-link text-success page-scroll pl-3" href="href="#courses">Courses</a></li>
+                <a class="nav-link text-success page-scroll pl-3" href="/#courses">Courses</a></li>
             </li>
 
             <!-- <li class="nav-item" style="padding:4px;">
@@ -59,15 +59,35 @@
 
 @if(Route::is('welcome'))
 
+
+<!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/banner.jpeg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Thigns</h5>
+            <p>...</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="ssets/images/advanced.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/ef.jpg" alt="Third slide">
+      </div>
+    </div>
+  </div> -->
+
 <div id="home" class="header_slider slider-active">
-    <div class="single_slider d-flex align-items-center bg_cover" style="background-image: url(assets/images/banner.jpeg)">
+    <div class="single_slider d-flex align-items-center bg_cover" style="background-image: url(/assets/images/sliders.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-sm-10">
                     <div class="header_content">
                         <h2 class="title" data-animation="fadeInUp" data-delay="0.2s">I sabi am! <br> How about you ?</h2>
                         <p data-animation="fadeInUp" data-delay="0.5s">Are you looking to manage your money better, but you don’t know how? Do you have a business idea and you’re wondering where to start from or are you looking to grow your business? Do you want all these for <span style="color: #67cbac;"> FREE?</span></p>
-                        <a href="https://www.smesabi.com/lms/login/signup.php" class="main-btn" data-animation="fadeInUp" data-delay="0.8s" target="_blank">Get Started</a>
+                        <br>
+                        <a href="https://www.smesabi.com/lms/login/signup.php" class="btn btn-success" data-animation="fadeInUp" data-delay="0.8s" target="_blank">Get Started</a>
                     </div> <!-- header content -->
                 </div>
             </div> <!-- row -->

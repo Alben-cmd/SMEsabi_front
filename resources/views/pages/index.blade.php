@@ -14,7 +14,7 @@
                 <div class="col-lg-12">
                     <div class="section_title pb-60">
                         <h4 class="title"></h4>
-                        <h2 class="main_title">Available Courses</h2>              
+                        <h2 class="main_title">Available <span>Courses</span> </h2>              
                             
                     </div> <!-- section title -->
                 </div>
@@ -27,9 +27,9 @@
                         <div class="project_image">
                             <img src="assets/images/basic.jpg" alt="project">
                         </div>
-                        <div class="shadow p-4">
+                        <div class=" shadow p-4">
                         	<h5 class="title"><a href="https://www.smesabi.com/lms/course/view.php?id=57" class="text-success">Basic Financial Literacy</a></h5>
-                            <p class="">Register now and learn how to manage your money better. You can take an optional module to improve your chances of getting a loan. </p>
+                            <p class="text-justify">Register now and learn how to manage your money better. You can take an optional module to improve your chances of getting a loan. </p>
                             <div class="row">
                                 <div class="col-6">
                                     <img src="assets/icon/money-bag.png"/>
@@ -110,65 +110,81 @@
     </section>
     <section id="about" class="about_area pt-5 pb-20">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about_video mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="border: 1px solid #02986A;">
-                        <img src="{{ asset('assets/videos/eng_intro.png') }}" alt="about">
-                        <a href="{{ asset('assets/videos/eng_Intro.mp4') }}" class="play video-popup" style=""><i class="lni lni-play"></i></a>
-                        <hr>
-
-                    </div> <!-- about image -->
-                    <br>
-
-                    <div class="row">
-                        <div class="col-sm-12 col-xs-12 col-md-6 pb-2 text-center">
-                            <a href="https://drive.google.com/file/d/104aQqWZrE85ntd1Y7kUBA2tqsVSAS9bv/view?usp=sharing" class="btn btn-xs bg-success text-white" target="_blank">
-                                Click to watch in Pidgin
-                            </a>
-                        </div>  
-
-                        <div class="col-sm-12 col-xs-12 col-md-6 pb-2 text-center">
-
-                            <a href="https://drive.google.com/file/d/1J6EvHIkT7_Gf_6qaugiK0EiZozvLH8jj/view?usp=sharing" class="btn btn-xs bg-success text-white" target="_blank">
-                                Click to watch in Hausa
-                            </a>
-                        </div>
+            <div class="col-lg-12">
+                <div class="section_title">
+                    <!-- <h4 class="title">About</h4> -->
+                    <h4 class="title"></h4>
+                    <h2 class="main_title pb-20">Why<span> SMEsabi?</span></h2>
+                </div> <!-- section title -->
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 p-10">
+                    <div class="col-md-12 blog_content card bg-success pt-30 pb-70 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="border: 1px solid #02986A; border-radius:1rem;">
+                        <p class="text-justify text-white" >With SMEsabi, your business will stand out from your competitors, and you will be able to make smarter money decisions! Through a series of short but educative online courses, you can build your capacity to improve your business and financial skills.</p>
+                        <br>
+                        <p class="text-justify text-white">Our courses are for free, and you can study them on your own time and pace. After having completed all assessments successfully, a personalized certificate endorsed by FUT Minna and GIZ will be issued to you.</p>
+                     </div>
+               </div>
+               <div class="col-md-6 p-10">
+                <div class="col-md-12">
+                    <div class="project_image wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <img src="assets/images/why_smesabi.jpg" alt="why smesabi" style="border-radius:1rem;">
                     </div>
+                 </div>
+                 
+               </div>
+              </div>
+            <div class="row align-item-center">
+                <div class="col-md-6">
+
                 </div>
-                <div class="col-lg-6">
-                    <div class="about_content mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
-                        <div class="section_title">
-                            <h4 class="title">About</h4>
-                            <h2 class="main_title"> What is<span> SMEsabi?</span></h2>
-                        </div> <!-- section title -->
-
-                        <p class="text-justify">SMEsabi is a free e-Learning platform developed by Nigerians for Nigerians that brings entrepreneurship and financial knowledge directly to you. 
-                        SMEs (Small, and Medium-sized Enterprises) are the key drivers to job creation and growth in any economy. To equip SMEs in Nigeria with the knowledge to thrive and prosper, the Federal University of Technology, Minna (FUT Minna) in collaboration with the German Development Cooperation (GIZ) initiated SMEsabi.</p>
-                    </div>
-
-                    <div class="about_content mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+            </div>
+        </div>
+    </section>
+    <section id="why_smesabi" class="about_area pt-5 pb-10">
+        <div class="container">            
+            <div class="row">
+                <div class="col-md-6 p-10">
+                    <div class="col-md-12 blog_content pt-5 pb-20 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="border-radius:1rem; background:#014741">
                         <div class="section_title">
                             <!-- <h4 class="title">About</h4> -->
-                            <h2 class="main_title">Why<span> SMEsabi?</span></h2>
-                        </div> <!-- section title -->
-
-                        <p class="text-justify">With SMEsabi, your business will stand out from your competitors, and you will be able to make smarter money decisions! Through a series of short but educative online courses, you can build your capacity to improve your business and financial skills.
-                        Our courses are for free, and you can study them on your own time and pace. After having completed all assessments successfully, a personalized certificate endorsed by FUT Minna and GIZ will be issued to you.</p>
-                    </div>
-
-                </div>  
+                            <h4 class="main_title pb-20 text-white">Schedule for an Entrepreneurship coaching session</h4>
+                        </div>
+                        <p class="text-justify text-white" >To enroll, you must first complet the Entreprenuership Fundamentals course</p>
+                        <a href="#" class="pt-10">
+                        <button type="button" class="btn btn-success">Book now</button></a>
+                     </div>
+               </div>
+               <div class="col-md-6 p-10">
+                <div class="col-md-12 blog_content pt-5 pb-20 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="border-radius:1rem; background:#006634">
                     
-                </div>
-                <hr>
-                <div class="section_title" align="center">
-                    <h2 class="main_title"> Moodle<span> Mobile App</span></h2>
-                </div>
+                        <div class="section_title">
+                            <!-- <h4 class="title">About</h4> -->
+                            
+                            <h3 class="main_title pb-10 text-white">Enroll To be a Financial Literacy Trainer</h3>
+                        </div>
+                        <p class="text-justify text-white" >Are you interested in sharing your financial knowledge? </p>
+                        <a href="https://www.smesabi.com/lms/course/view.php?id=58" class="pt-45 pb-25">
+                            <button type="button" class="btn btn-success">Enroll now</button></a>
+                 </div>
+                 
+               </div>
+              </div>
+            <div class="row align-item-center">
+                <div class="col-md-12">
+                    <hr>
+                <section id="mobile">
+                    <div class="section_title" align="center">
+                        <h2 class="main_title"> Moodle<span> Mobile App</span></h2>
+                    </div>
+                </section>
                 <section class="page-section" style="padding: 5px 0; margin-bottom: 40px;">
                     <div class="container">
                         <div class="row" style="text-align-last: center; margin-top:30px;">
                             <div class="col-md-12" data-animation="fadeInUp">
                                 <a href="https://play.google.com/store/apps/details?id=com.moodle.moodlemobile" target="_blank" rel="noopener noreferrer">
-                                    <img src="{{ asset('assets/images/mobile_app.png') }}" alt="google play store" style="width: 50%;">
+                                    <img src="https://www.smesabi.com/assets/images/mobile_app.png" alt="google play store" style="width: 50%;">
                                 </a>
                             </div>
                             <p align="center">The Moodle Mobile app can be used to access SMEsabi both online and offline 
@@ -178,33 +194,32 @@
                       
                 </section>
                 <hr>
-                <div class="pt-4 text-center">
-                    <img src="{{ asset('assets/images/sliders.jpg') }}">
+                <!-- <div class="pt-4 text-center">
+                    <img src="/assets/images/sliders.jpg">
                     <h6 class="mt-4"><i>“We foster new ways of learning: self - study at your own pace and guided learning with interaction.”</i></h6>
-                </div>
+                </div> -->
             </div> <!-- row -->
         </div> <!-- container -->
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!--====== ABOUT PART ENDS ======-->
-
-
-    <!--====== TESTMONIAL PART START ======-->
-
-    <section id="testimonial" class="testimonial_area pt-115 pb-120 bg_cover mb-150" style="background-image: url(assets/images/testimonial.jpeg)">
+    <section id="testimonial" class="testimonial_area pt-35 pb-10 bg_cover mb-10" style="background-image: url(assets/images/testimonial.jpeg)">
         <div class="container">
+
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title section_title_2 text-center pb-50">
-                        <h4 class="title">Testimonials</h4>
-                        <h2 class="main_title">What Our Learners Say</h2>
+                        <h3 class="title" style="color:#38424D;">Testimonials</h3>
+                        <h2 class="main_title" style="color:#38424D">What Our Learners Say</h2>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
             
             <div class="row testimonial_active">
-                <div class="col-lg-6">
-                    <div class="single_testimonial text-center">
+                <div class="col-lg-3">
+                    <div class="single_testimonial text-center pt-30 pb-40" style="border: 1px solid #02986A; border-radius:1rem;" >
                         <img src="assets/images/hamdala.png" alt="author" height="100" width="100">
                         <h5 class="name">SHITTA OYINKANSOLA HAMDALA</h5>
                         <span> CEO, Scent Bee Wax Candle</span>
@@ -212,8 +227,8 @@
                     </div> <!-- single testimonial -->
                 </div>
                 
-                <div class="col-lg-6">
-                    <div class="single_testimonial text-center">
+                <div class="col-lg-3">
+                    <div class="single_testimonial text-center pt-30 pb-40" style="border: 1px solid #02986A; border-radius:1rem;">
                         <img src="assets/images/author-2.jpg" alt="author" style="visibility: hidden;">
                         <h5 class="name">MARY ADEGELU</h5>
                         <span>2808 Fingers & Events</span>
@@ -221,8 +236,8 @@
                     </div> <!-- single testimonial -->
                 </div>
                 
-                <div class="col-lg-6">
-                    <div class="single_testimonial text-center">
+                <div class="col-lg-3">
+                    <div class="single_testimonial text-center pt-30 pb-40" style="border: 1px solid #02986A; border-radius:1rem;">
                         <img src="assets/images/author-3.jpg" alt="author" style="visibility: hidden;">
                         <h5 class="name">OLAKUNLE IYANDA</h5>
                         <span>Damark Farms</span>
@@ -239,24 +254,24 @@
     
 
 
-    {{-- <!--====== BLOG PART START ======-->
+   <!--====== BLOG PART START ======-->
 
-    <section id="blog" class="blog_area pb-120">
+    <!-- <section id="blog" class="blog_area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="section_title pb-20">
                         <h4 class="title">Blog</h4>
                         <h2 class="main_title">Latest News</h2>
-                    </div> <!-- section title -->
+                    </div> 
                 </div>
-            </div> <!-- row -->
+            </div> 
             
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="blog_image mt-30">
                         <img src="assets/images/blog-1.jpg" alt="blog">
-                    </div> <!-- blog image -->
+                    </div> 
                 </div>
                 <div class="col-lg-6">
                     <div class="blog_content mt-25">
@@ -267,13 +282,13 @@
                         <h3 class="blog_title"><a href="javascript:void(0)">Lorem ipsum dolor sitconsetetur sadipscing diam nonumy eirmod tempor invidunt ut.</a></h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At veroaccusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum.</p>
                         <a href="javascript:void(0)" class="main-btn">Read More</a>
-                    </div> <!-- blog content -->
+                    </div> 
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+            </div> 
+        </div> 
+    </section> -->
 
-    <!--====== BLOG PART ENDS ======--> --}}
+    <!--====== BLOG PART ENDS ======--> 
 
     <section id="blog" class="blog_area pb-120">
         <div class="container">
@@ -289,19 +304,19 @@
             <div class="row text-center">
                 
                 <div class="col-sm-3">
-                    <img src="{{ asset('assets/images/codel.jpeg') }}">
+                    <img src="{{ asset('assets/images/codel.jpeg') }}" style="width:60%;height:60%;">
                 </div>
                 
                 <div class="col-sm-3">
-                    <img src="{{ asset('assets/images/gizcoop.jpeg') }}">
+                    <img src="{{ asset('assets/images/gizcoop.jpeg') }}" style="width:60% height:60%;">
                 </div>
 
                 <div class="col-sm-3">
-                    <img src="{{ asset('assets/images/gizlogo.jpeg') }}">
+                    <img src="{{ asset('assets/images/gizlogo.jpeg') }}" style="width:60%;height:60%;">
                 </div>
 
                 <div class="col-sm-3">
-                    <img src="{{ asset('assets/images/leadresources.jpeg') }}">
+                    <img src="{{ asset('assets/images/leadresources.jpeg') }}" style="width:60%;height:60%;">
                 </div>
 
                 
