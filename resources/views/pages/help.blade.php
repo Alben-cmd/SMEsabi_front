@@ -1,60 +1,24 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout')
 
-        <title> @yield('title', 'SMESabi Welcome') </title>
+@section('title')
+    SMEsabi - Help
+@endsection
 
-        @include('roots._css')
-        <style>
-            .bg-smesabi-green1{
-                background-color:red;
-            }
-        </style>
-    </head>
-    <body>
+@section('content')
 
-            <!--====== PRELOADER PART START ======-->
-
-    <div class="preloader">
-        <div class="loader">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--====== PRELOADER PART ENDS ======-->
-
-    @include('partials.header')
-
-    
-    @yield('content')
-
-    <!--====== FOOTER PART START ======-->
-
-    <section id="footer" class="footer_area">
-        <!-- <div class="footer_widget bg_cover pt-80 pb-130" style="background-image: url(assets/images/contact.jpeg)"> -->
-            <!-- <div class="container">
+<section id="footer" class="footer_area">
+        <div class="footer_widget bg_cover pt-80 pb-130" style="background-image: url(assets/images/contact.jpeg)">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="footer_info mt-45">
                             <div class="section_title section_title_2">
-                                <h4 class="title">Contact </h4>
+                                <h4 class="title">Help Desk</h4>
                                 <h2 class="main_title"></h2>
-                            </div>
+                            </div> <!-- section title -->
 
-                            <p>Do you want to get in touch with us or have a question? Fill out this form or contact support</p>
+                            <p>We have curated a list of resources to aid your learning, <a href="/resources" target="_blank" class="text-success font-bold">click here</a> to access them.</p>
+                            <p>If you want to get in touch with us or have a question? Fill out this form or contact support</p>
 
                             <div class="single_info d-flex align-items-center mt-30">
                                 <div class="info_icon">
@@ -64,7 +28,8 @@
                                     <p>08113535292 (Call or WhatsApp)</p>
                                     
                                 </div>
-                            </div> 
+                            </div> <!-- single info -->
+
                             <div class="single_info d-flex align-items-center mt-30">
                                 <div class="info_icon">
                                     <I class="lni lni-envelope"></I>
@@ -72,7 +37,7 @@
                                 <div class="info_content media-body">
                                     <p>support@smesabi.com</p>
                                 </div>
-                            </div> 
+                            </div> <!-- single info -->
 
                             <div class="single_info d-flex align-items-center mt-30">
                                 <div class="info_icon">
@@ -81,7 +46,7 @@
                                 <div class="info_content media-body">
                                     <p>SMEsabi Secretriat, Entreprenuership Centre<br> Federal University of Technology, Minna<br> Niger State, Nigeria</p>
                                 </div>
-                            </div> 
+                            </div> <!-- single info -->
 
                             <div class="single_info d-flex align-items-center mt-30">
                                 <div class="info_icon">
@@ -90,67 +55,53 @@
                                 <div class="info_content media-body">
                                     <p>Work hours: 9AM - 4PM</p>
                                 </div>
-                            </div> 
-                        </div>
+                            </div> <!-- single info -->
+                        </div> <!-- footer info -->
                     </div>
                     <div class="col-lg-7">
                         <div class="footer_form pt-40">
-                            <form id="contact-fm" action="{{ route('contact.form') }}" method="POST">
-                                @csrf   
+                            <form id="contact-fm" action="https://www.smesabi.com/submit-contact" method="POST">
+                                <input type="hidden" name="_token" value="kWCjiZ4vF8kdt4YcPgDnneEPdW7YBxelxFw0Nz8s">   
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_input mt-30">
                                             <input type="text" name="name" placeholder="Name">
-                                        </div> 
+                                        </div> <!-- single input -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single_input mt-30">
                                             <input type="text" name="email" placeholder="Email">
-                                        </div> 
+                                        </div> <!-- single input -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single_input mt-30">
                                             <input type="text" name="phone" placeholder="Phone">
-                                        </div> 
+                                        </div> <!-- single input -->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single_input mt-30">
                                             <input type="text" name="subject" placeholder="Subject">
-                                        </div> 
+                                        </div> <!-- single input -->
                                     </div>
                                     <div class="col-md-12">
                                         <div class="single_input mt-30">
                                             <textarea name="message" placeholder="Message"></textarea>
-                                        </div> 
+                                        </div> <!-- single input -->
                                     </div>
                                     <p class="form-message"></p>
                                     <div class="col-md-12">
                                         <div class="single_input mt-30">
                                             <button class="main-btn">SUBMIT</button>
-                                        </div> 
+                                        </div> <!-- single input -->
                                     </div>
-                                </div> 
+                                </div> <!-- row -->
                             </form>
-                        </div> 
+                        </div> <!-- footer form -->
                     </div>
-                </div> 
-            </div>  -->
-        </div> 
-        
-        @include('partials.footer')
-    </section>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->   
 
-    <!--====== FOOTER PART ENDS ======-->
-    
-    <!--====== BACK TOP TOP PART START ======-->
+</section>
 
-    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
-
-    <!--====== BACK TOP TOP PART ENDS ======-->
-
-    <!--====== PART START ======-->
-
-    @include('roots._javascript')
-
-    </body>
-</html>
+@endsection

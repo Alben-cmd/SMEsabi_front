@@ -41,3 +41,13 @@ Route::post('submit-contact', function() {
    
     return redirect()->back()->with('message','Email sent successfully, you will be contacted soon by a SMEsabi support staff');
 })->name('contact.form');
+
+// new routes
+
+Route::get('/help', function(){
+   return view('pages.help');
+});
+
+Route::get('/about', function(){
+   return view('pages.about');
+});
